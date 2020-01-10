@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
 }
 
 .nav-bar {
@@ -28,6 +30,7 @@ a.active {
     position: relative;
     text-align: center;
     color: white;
+    margin-bottom: 5px;
 }
 .header img {
     height: 300px;
@@ -42,4 +45,67 @@ a.active {
   font-size: 32px;
   font-weight: bold;
   color: #17131452;
+}
+
+.search{
+   padding: 6px;
+   font-size: 20px;
+   border-radius: 11px;
+}
+
+.search button {
+    font-size: 17px;
+}
+
+.cart {
+    float: right;
+}
+
+.column img {
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.column h3{
+  font-size: 34px;
+}
+
+.mainContent {
+    max-width: 1000px; 
+    margin: 0px auto;
+}
+
+.column {
+    float:left;
+    width: 25%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.column button{
+    margin: 5px 0px 5px 47px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.footer{
+    background-color: #6d6d6d;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
 }
